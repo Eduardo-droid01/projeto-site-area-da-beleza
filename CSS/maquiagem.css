@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ body {
+  caret-color: transparent;
+  background: white;
+  font-family: "Nunito Sans", sans-serif;
+   }
+
+ h1 {
+   text-align: center;
+ }
+
+ p {
+   text-align: center; 
+   margin-bottom:50px;
+ }
+
+ .servico{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+ }
+
+ .card {
+    width: 45%;
+    max-width:250px;
+   text-align: center;
+}
+
+ .card img {
+   width: 100%;
+   display: block;
+   margin: 0 auto;
+}
+
+ .botao { 
+   display: block;
+   margin: 20px auto;
+   border-radius: 10px;
+   width: 150px;
+   height: 40px;
+   font-size: 15px;
+   color: black;
+   background:  rgb(252, 244, 208); 
+   outline: none;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+
+ .voltar {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-padrao {
+width: 100%;
+aspect-ratio: 1 / 1;
+object-fit: cover;
+border-radius: 12px;
+}

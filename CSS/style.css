@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ body {
+   caret-color: transparent;
+   background: white;
+   font-family: "Nunito Sans", sans-serif;
+}
+
+
+.img {
+   width: 150px;
+   height: 250px;
+   display: block;
+   margin: 0 auto;
+}
+
+
+.topo { 
+   text-align: center;
+   margin-bottom:50px;
+}
+
+
+.botao { 
+   display: block;
+   margin: 20px auto;
+   border-radius: 10px;
+   width: 150px;
+   height: 40px;
+   font-size: 15px;
+   color: black;
+   background:  rgb(252, 244, 208); 
+   outline: none;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+
+.img-logo {
+   width: 350px;
+   height: 350px;
+   display: block;
+   margin: 0 auto;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+p { 
+   text-align: center;
+   margin-bottom:25px ;
+}
+
+
+.img-icone {
+   width: 150px;
+   height: 150px;
+   display: block;
+   margin: 0 auto;
+}
+
+
+.card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap:20px;
+}
+
+
+.card > div {
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+
+.card img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+.card p {
+   margin-top: 8px;
+   font-size: 14px;
+}
+
+
+.esmaltacao {
+   width: 250px;
+}
+
+
+.podologia {
+   width: 250px;
+} 
+
+
+.maquiagem {
+   width: 250px;
+}
+
+
+.cabelo {
+   width: 250px;
+}
+
+
+.rodape {
+   text-align: center;
+   margin-top: 30px;
+}
