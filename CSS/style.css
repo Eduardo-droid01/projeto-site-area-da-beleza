@@ -34,6 +34,10 @@
    cursor: pointer;
 }
 
+a {
+ text-decoration:none;
+ color: black;
+}
 
 .img-logo {
    width: 350px;
@@ -118,3 +122,4 @@ p {
    text-align: center;
    margin-top: 30px;
 }
+
