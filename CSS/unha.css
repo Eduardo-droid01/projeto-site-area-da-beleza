@@ -54,9 +54,8 @@
    cursor: pointer;
 }
 
-a {
+.contato {
  text-decoration:none;
- color: black;
 }
 
 .voltar {
@@ -85,3 +84,4 @@ object-fit: cover;
 border-radius: 12px;
 
 }
+
