@@ -82,15 +82,12 @@ border-radius: 12px;
 }
 
 a,
-a:link,
-a:visited,
-a:hover,
-a:active {
+a *,
+button,
+button * {
   text-decoration: none !important;
+  border-bottom: none !important;
 }
 
-a * {
-  text-decoration: none !important;
-}
 
 
