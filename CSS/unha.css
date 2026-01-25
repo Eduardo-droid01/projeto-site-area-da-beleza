@@ -89,5 +89,9 @@ button * {
   border-bottom: none !important;
 }
 
+u,
+ins {
+  text-decoration: none !important;
+}
 
 
