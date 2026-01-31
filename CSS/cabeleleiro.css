@@ -39,8 +39,7 @@
    margin: 0 auto;
 }
 
-
- .botao { 
+.botao { 
    display: block;
    margin: 20px auto;
    border-radius: 10px;
@@ -48,16 +47,29 @@
    height: 40px;
    font-size: 15px;
    color: black;
-   background:  rgb(252, 244, 208); 
    outline: none;
    text-decoration: none;
    cursor: pointer;
+   border: 0.5px solid rgb(255, 228, 152);
+   background-color:  rgb(252, 244, 208); 
+
+   transition: background-color 0.5s ease;
 }
 
+.botao:hover{
+  background-color: rgb(255, 213, 124);
+}
+
+a {
+ text-decoration:none;
+ color: black;
+}
+ 
  .voltar {
    display: block;
    text-align: center;
    text-decoration: none;
+   color: black;
 }
 
 .img {
@@ -71,4 +83,5 @@ width: 100%;
 aspect-ratio: 1 / 1;
 object-fit: cover;
 border-radius: 12px;
+
 }
